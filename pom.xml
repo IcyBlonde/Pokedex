@@ -36,5 +36,16 @@
                 </configuration>
             </plugin>
         </plugins>
+
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/main</directory>
+            </resource>
+            <!-- Add any additional resource directories here -->
+            <!-- <resource>
+                <directory>src/main/client</directory>
+            </resource> -->
+        </resources>
     </build>
 </project>
