@@ -1,5 +1,6 @@
-import javax.swing.*;
+package dex;
 
+import javax.swing.*;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.LayoutManager;
@@ -34,9 +35,5 @@ public class Opening {
                 new PartyFrame();
             }
         });
-    }
-
-    public static void main(String[] args){
-        new Opening();
     }
 }

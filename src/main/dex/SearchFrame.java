@@ -1,4 +1,5 @@
-// SecondFrame.java
+package dex;
+
 import javax.swing.*;
 public class SearchFrame {
 	private JFrame f = new JFrame("Search");

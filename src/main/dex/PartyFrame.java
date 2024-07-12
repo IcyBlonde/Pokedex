@@ -1,3 +1,5 @@
+package dex;
+
 import javax.swing.JFrame;
 
 public class PartyFrame {
