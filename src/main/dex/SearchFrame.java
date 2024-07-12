@@ -1,9 +1,9 @@
 // SecondFrame.java
 import javax.swing.*;
-public class SecondFrame {
-	private JFrame f = new JFrame("Second");
+public class SearchFrame {
+	private JFrame f = new JFrame("Search");
 	
-	public SecondFrame() {
+	public SearchFrame() {
 	
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setSize(300,300);
