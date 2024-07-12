@@ -1,4 +1,7 @@
 import javax.swing.*;
+
+import java.awt.FlowLayout;
+import java.awt.LayoutManager;
 import java.awt.event.*;
 
 public class Opening {
@@ -8,6 +11,8 @@ public class Opening {
     public Opening(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
+        frame.add(search);
+        frame.setLayout(new FlowLayout());
         frame.setVisible(true);
         frame.getContentPane().add(search);
 
