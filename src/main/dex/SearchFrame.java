@@ -9,6 +9,7 @@ import java.awt.event.*;
 public class SearchFrame {
 	private JFrame frame = new JFrame("Search");
 	private JTextField input = new JTextField();
+	private String search;
 	
 	public SearchFrame() {
 		frame.setLayout(new FlowLayout());
@@ -18,5 +19,15 @@ public class SearchFrame {
 		input.setHorizontalAlignment(JTextField.CENTER);
         frame.setVisible(true);
         frame.getContentPane().add(input);
+
+		input.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                search = input.getText();
+            }
+        });
+
 	}
+
+	
 }
